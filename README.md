@@ -1,1 +1,1 @@
-# adblock
+Plus version is just a small improvement of the regular version!
