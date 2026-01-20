@@ -1,0 +1,91 @@
+# ===============================
+# Adult / Porn / Hentai Blocklist
+# Compatible with Shadowrocket
+# Mode: REJECT (local filter)
+# ===============================
+
+# ===== Keyword block (rất mạnh) =====
+DOMAIN-KEYWORD,sex,REJECT
+DOMAIN-KEYWORD,porn,REJECT
+DOMAIN-KEYWORD,xxx,REJECT
+DOMAIN-KEYWORD,adult,REJECT
+DOMAIN-KEYWORD,hentai,REJECT
+DOMAIN-KEYWORD,jav,REJECT
+DOMAIN-KEYWORD,xnxx,REJECT
+DOMAIN-KEYWORD,xvideo,REJECT
+DOMAIN-KEYWORD,vlxx,REJECT
+DOMAIN-KEYWORD,phimcl,REJECT
+DOMAIN-KEYWORD,loanluan,REJECT
+DOMAIN-KEYWORD,ebod,REJECT
+DOMAIN-KEYWORD,mide,REJECT
+DOMAIN-KEYWORD,ihentai,REJECT
+
+# ===== Extra strong keywords =====
+DOMAIN-KEYWORD,onlyfans,REJECT
+DOMAIN-KEYWORD,brazzers,REJECT
+DOMAIN-KEYWORD,realitykings,REJECT
+DOMAIN-KEYWORD,stripchat,REJECT
+
+# ===== Global sites =====
+DOMAIN-SUFFIX,pornhub.com,REJECT
+DOMAIN-SUFFIX,spankbang.com,REJECT
+DOMAIN-SUFFIX,redtube.com,REJECT
+DOMAIN-SUFFIX,youporn.com,REJECT
+DOMAIN-SUFFIX,xnxx.com,REJECT
+DOMAIN-SUFFIX,xvideos.com,REJECT
+DOMAIN-SUFFIX,xhamster.com,REJECT
+DOMAIN-SUFFIX,nhentai.net,REJECT
+DOMAIN-SUFFIX,javhd.com,REJECT
+
+# ===== Global extra =====
+DOMAIN-SUFFIX,tube8.com,REJECT
+DOMAIN-SUFFIX,ixxx.com,REJECT
+DOMAIN-SUFFIX,porn.com,REJECT
+DOMAIN-SUFFIX,eporner.com,REJECT
+DOMAIN-SUFFIX,porndig.com,REJECT
+DOMAIN-SUFFIX,onlyfans.com,REJECT
+DOMAIN-SUFFIX,brazzers.com,REJECT
+DOMAIN-SUFFIX,realitykings.com,REJECT
+DOMAIN-SUFFIX,chaturbate.com,REJECT
+
+# ===== Vietnam popular =====
+DOMAIN-SUFFIX,vlxx.xxx,REJECT
+DOMAIN-SUFFIX,thiendia.com,REJECT
+DOMAIN-SUFFIX,sieukhung.net,REJECT
+DOMAIN-SUFFIX,thempho.tv,REJECT
+DOMAIN-SUFFIX,themjav.com,REJECT
+DOMAIN-SUFFIX,sexviet.tv,REJECT
+DOMAIN-SUFFIX,phimsexviet.com,REJECT
+DOMAIN-SUFFIX,asiansexdiary.com,REJECT
+
+# ===== ihentai variants =====
+DOMAIN-SUFFIX,ihentai.com,REJECT
+DOMAIN-SUFFIX,ihentai.cafe,REJECT
+DOMAIN-SUFFIX,ihentai.vip,REJECT
+DOMAIN-SUFFIX,ihentai.site,REJECT
+DOMAIN-SUFFIX,ihentai.live,REJECT
+DOMAIN-SUFFIX,ihentai.net,REJECT
+DOMAIN-SUFFIX,ihentai.xyz,REJECT
+
+# ===== Hentai global =====
+DOMAIN-SUFFIX,hanime.tv,REJECT
+DOMAIN-SUFFIX,hentaihaven.xxx,REJECT
+DOMAIN-SUFFIX,rule34video.com,REJECT
+DOMAIN-SUFFIX,animeidhentai.com,REJECT
+DOMAIN-SUFFIX,hentaimama.io,REJECT
+DOMAIN-SUFFIX,hentaicity.com,REJECT
+DOMAIN-SUFFIX,underhentai.net,REJECT
+DOMAIN-SUFFIX,gelbooru.com,REJECT
+DOMAIN-SUFFIX,hentai18.net,REJECT
+DOMAIN-SUFFIX,xanimeporn.com,REJECT
+DOMAIN-SUFFIX,hentaifox.com,REJECT
+DOMAIN-SUFFIX,e-hentai.org,REJECT
+
+# ===== VN hentai =====
+DOMAIN-SUFFIX,hentaivn.net,REJECT
+DOMAIN-SUFFIX,hentaiera.com,REJECT
+DOMAIN-SUFFIX,truyen-hentai.com,REJECT
+DOMAIN-SUFFIX,xanimu.com,REJECT
+
+# ===== Safety =====
+FINAL,DIRECT
